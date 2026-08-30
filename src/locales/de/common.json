@@ -1,0 +1,42 @@
+{
+  "system": {
+    "title": "MB Zahnersatz ERP",
+    "tagline": "Internationales Dentallabor & Enterprise Resource Planning",
+    "welcome": "Willkommen",
+    "logout": "Abmelden"
+  },
+  "roles": {
+    "SUPER_ADMIN": "Super-Administrator / Unternehmensinhaber",
+    "STAFF_PERSONEL": "MB-Mitarbeiter",
+    "DOCTOR_LOCAL": "Inländischer Zahnarzt",
+    "DOCTOR_FOREIGN": "Ausländischer Zahnarzt",
+    "CLINIC_LOCAL": "Inländische Zahnklinik",
+    "CLINIC_FOREIGN": "Ausländische Zahnklinik",
+    "AGENT_LOCAL": "Inländischer Vermittler / Vertreter",
+    "AGENT_FOREIGN": "Ausländischer Vermittler / Vertreter"
+  },
+  "departments": {
+    "ACCOUNTING": "Buchhaltung & Finanzen",
+    "HR": "Personalwesen & Zeiterfassung",
+    "WAREHOUSE": "Lager & Bestand",
+    "PRODUCTION": "Dentallabor & Fertigung",
+    "MANAGEMENT": "Geschäftsführung",
+    "LOGISTICS": "Logistik & Versand"
+  },
+  "currencies": {
+    "TRY": "Türkische Lira (₺)",
+    "EUR": "Euro (€)",
+    "USD": "US-Dollar ($)"
+  },
+  "modules": {
+    "dashboard": "Dashboard",
+    "orders": "Zahnersatz-Aufträge",
+    "production": "Labor & Produktion",
+    "finance": "Finanzen & Buchhaltung",
+    "inventory": "Lager & Bestand",
+    "hr": "Personal & Zeiterfassung",
+    "foreign_trade": "Außenhandel & Zoll",
+    "assets": "Anlagenverwaltung",
+    "settings": "Systemeinstellungen"
+  }
+}

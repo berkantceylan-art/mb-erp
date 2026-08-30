@@ -1,0 +1,42 @@
+{
+  "system": {
+    "title": "MB Dental Prosthetics ERP",
+    "tagline": "International Dental Laboratory & Enterprise Resource Planning",
+    "welcome": "Welcome",
+    "logout": "Log Out"
+  },
+  "roles": {
+    "SUPER_ADMIN": "Super Admin / Company Owner",
+    "STAFF_PERSONEL": "MB Staff Personnel",
+    "DOCTOR_LOCAL": "Domestic Dentist",
+    "DOCTOR_FOREIGN": "International Dentist",
+    "CLINIC_LOCAL": "Domestic Dental Clinic",
+    "CLINIC_FOREIGN": "International Dental Clinic",
+    "AGENT_LOCAL": "Domestic Representative / Agent",
+    "AGENT_FOREIGN": "International Representative / Agent"
+  },
+  "departments": {
+    "ACCOUNTING": "Accounting & Finance",
+    "HR": "Human Resources & Attendance",
+    "WAREHOUSE": "Warehouse & Inventory",
+    "PRODUCTION": "Prosthetics Laboratory",
+    "MANAGEMENT": "Executive Management",
+    "LOGISTICS": "Logistics & Shipping"
+  },
+  "currencies": {
+    "TRY": "Turkish Lira (₺)",
+    "EUR": "Euro (€)",
+    "USD": "US Dollar ($)"
+  },
+  "modules": {
+    "dashboard": "Dashboard",
+    "orders": "Prosthetics Orders",
+    "production": "Laboratory & Production",
+    "finance": "Finance & Accounting",
+    "inventory": "Inventory & Stock",
+    "hr": "HR & Attendance",
+    "foreign_trade": "Foreign Trade & Customs",
+    "assets": "Fixed Assets",
+    "settings": "System Settings"
+  }
+}

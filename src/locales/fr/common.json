@@ -1,0 +1,42 @@
+{
+  "system": {
+    "title": "MB Prothèse Dentaire ERP",
+    "tagline": "Laboratoire Dentaire International et Planification des Ressources d'Entreprise",
+    "welcome": "Bienvenue",
+    "logout": "Se déconnecter"
+  },
+  "roles": {
+    "SUPER_ADMIN": "Super Administrateur / Propriétaire",
+    "STAFF_PERSONEL": "Personnel MB",
+    "DOCTOR_LOCAL": "Chirurgien-Dentiste National",
+    "DOCTOR_FOREIGN": "Chirurgien-Dentiste International",
+    "CLINIC_LOCAL": "Clinique Dentaire Nationale",
+    "CLINIC_FOREIGN": "Clinique Dentaire Internationale",
+    "AGENT_LOCAL": "Agent / Représentant National",
+    "AGENT_FOREIGN": "Agent / Représentant International"
+  },
+  "departments": {
+    "ACCOUNTING": "Comptabilité et Finance",
+    "HR": "Ressources Humaines et Pointage",
+    "WAREHOUSE": "Entrepôt et Stocks",
+    "PRODUCTION": "Laboratoire de Prothèse",
+    "MANAGEMENT": "Direction Générale",
+    "LOGISTICS": "Logistique et Expédition"
+  },
+  "currencies": {
+    "TRY": "Livre Turque (₺)",
+    "EUR": "Euro (€)",
+    "USD": "Dollar US ($)"
+  },
+  "modules": {
+    "dashboard": "Tableau de Bord",
+    "orders": "Commandes de Prothèses",
+    "production": "Laboratoire & Fabrication",
+    "finance": "Finance & Comptabilité",
+    "inventory": "Stocks & Entrepôt",
+    "hr": "RH & Pointage",
+    "foreign_trade": "Commerce Extérieur & Douanes",
+    "assets": "Gestion des Actifs",
+    "settings": "Paramètres Système"
+  }
+}

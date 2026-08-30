@@ -1,0 +1,42 @@
+{
+  "system": {
+    "title": "MB Diş Protez ERP",
+    "tagline": "Uluslararası Dental Laboratuvar ve Kurumsal Kaynak Planlama",
+    "welcome": "Hoş Geldiniz",
+    "logout": "Çıkış Yap"
+  },
+  "roles": {
+    "SUPER_ADMIN": "Süper Yönetici / Şirket Sahibi",
+    "STAFF_PERSONEL": "MB Personeli",
+    "DOCTOR_LOCAL": "Yurt İçi Diş Hekimi",
+    "DOCTOR_FOREIGN": "Yurt Dışı Diş Hekimi",
+    "CLINIC_LOCAL": "Yurt İçi Klinik",
+    "CLINIC_FOREIGN": "Yurt Dışı Klinik",
+    "AGENT_LOCAL": "Yurt İçi Temsilci / Aracı",
+    "AGENT_FOREIGN": "Yurt Dışı Temsilci / Aracı"
+  },
+  "departments": {
+    "ACCOUNTING": "Muhasebe & Finans",
+    "HR": "İnsan Kaynakları & PDKS",
+    "WAREHOUSE": "Depo & Stok",
+    "PRODUCTION": "Protez Laboratuvarı",
+    "MANAGEMENT": "Üst Yönetim",
+    "LOGISTICS": "Lojistik & Kargo"
+  },
+  "currencies": {
+    "TRY": "Türk Lirası (₺)",
+    "EUR": "Euro (€)",
+    "USD": "Amerikan Doları ($)"
+  },
+  "modules": {
+    "dashboard": "Kontrol Paneli",
+    "orders": "Protez Siparişleri",
+    "production": "Laboratuvar & Üretim",
+    "finance": "Finans & Muhasebe",
+    "inventory": "Stok & Depo",
+    "hr": "İK & PDKS",
+    "foreign_trade": "Dış Ticaret & Gümrük",
+    "assets": "Demirbaş Takibi",
+    "settings": "Sistem Ayarları"
+  }
+}

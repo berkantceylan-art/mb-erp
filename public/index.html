@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MB Diş Protez Laboratuvarı | Enterprise ERP & CAD/CAM Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <div class="logo-icon">🦷</div>
+        <div class="logo-text">
+          <span class="logo-title">MB DİŞ PROTEZ</span>
+          <span class="logo-sub">ENTERPRISE ERP & LAB</span>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link" data-i18n="nav.home">Ana Sayfa</a>
+        <a href="#services" class="nav-link" data-i18n="nav.services">Hizmetlerimiz</a>
+        <a href="#tech" class="nav-link" data-i18n="nav.technology">Laboratuvar Teknolojileri</a>
+        <a href="#export" class="nav-link" data-i18n="nav.export">Global İhracat</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">İletişim</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Bayrak İkonlu Dil Değiştirici -->
+        <div class="language-switcher">
+          <button class="lang-btn active-lang" id="currentLangBtn" onclick="toggleLangDropdown()">
+            <span id="currentLangFlag">🇹🇷</span>
+            <span id="currentLangText">TR</span>
+            <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="lang-dropdown" id="langDropdown">
+            <div class="lang-option" onclick="changeLanguage('tr')"><span>🇹🇷</span> Türkçe (TR)</div>
+            <div class="lang-option" onclick="changeLanguage('en')"><span>🇬🇧</span> English (EN)</div>
+            <div class="lang-option" onclick="changeLanguage('fr')"><span>🇫🇷</span> Français (FR)</div>
+            <div class="lang-option" onclick="changeLanguage('de')"><span>🇩🇪</span> Deutsch (DE)</div>
+          </div>
+        </div>
+
+        <!-- Sisteme Giriş Butonu -->
+        <button class="btn btn-primary login-hub-btn" onclick="openPortalHub()">
+          <span class="lock-icon">🔒</span>
+          <span data-i18n="nav.portal_login">Sisteme Giriş</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <div class="badge-pill">
+        <span class="pulse-dot"></span>
+        <span data-i18n="hero.badge">ISO 13485 & CE Sertifikalı Dijital Laboratuvar</span>
+      </div>
+      <h1 class="hero-title" data-i18n="hero.title">
+        Yeni Nesil Dijital Diş Protezinde <br><span class="gradient-text">Uluslararası Güven & Hassasiyet</span>
+      </h1>
+      <p class="hero-description" data-i18n="hero.description">
+        CAD/CAM frezeleme, 3D titanyum lazer sinterleme ve estetik zirkonya restorasyonlarında yurt içi ve yurt dışı 400+ klinik ve hekimin birinci tercihi.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary btn-lg" onclick="openPortalHub()">
+          <span data-i18n="hero.cta_order">Protez Siparişi Ver</span>
+          <span>→</span>
+        </button>
+        <a href="#tech" class="btn btn-secondary btn-lg" data-i18n="hero.cta_tech">Teknolojilerimizi İnceleyin</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-num">40.000+</div>
+          <div class="stat-label" data-i18n="stats.restorations">Yıllık Üretilen Protez</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">18+</div>
+          <div class="stat-label" data-i18n="stats.countries">İhracat Yapılan Ülke</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">%99.8</div>
+          <div class="stat-label" data-i18n="stats.precision">Hassasiyet ve Uyum Oranı</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">24-48h</div>
+          <div class="stat-label" data-i18n="stats.speed">Hızlı Express Üretim</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title" data-i18n="services.title">Laboratuvar Hizmetlerimiz & Protez Çeşitleri</h2>
+        <p class="section-subtitle" data-i18n="services.subtitle">Mikron düzeyinde hassasiyetle üretilen tam kapsamlı dental çözümler.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card service-card">
+          <div class="service-icon">💎</div>
+          <h3 data-i18n="services.zirconia_title">Zirkonyum & Tam Seramikler</h3>
+          <p data-i18n="services.zirconia_desc">Çok katmanlı estetik zirkonya, E-max press ve monolitik kron & köprü sistemleri.</p>
+        </div>
+        <div class="card service-card">
+          <div class="service-icon">🔩</div>
+          <h3 data-i18n="services.implant_title">İmplant Üstü Çözümler</h3>
+          <p data-i18n="services.implant_desc">Kişiye özel titanyum/zirkon abutmentlar, All-on-4/All-on-6 hibrit protezler.</p>
+        </div>
+        <div class="card service-card">
+          <div class="service-icon">🖥️</div>
+          <h3 data-i18n="services.cadcam_title">CAD/CAM & 3D Dijital Tarama</h3>
+          <p data-i18n="services.cadcam_desc">Ağız içi tarayıcılardan (iTero, 3Shape, Medit) doğrudan STL/PLY aktarımı ve dijital modelleme.</p>
+        </div>
+        <div class="card service-card">
+          <div class="service-icon">✨</div>
+          <h3 data-i18n="services.smile_title">Dijital Gülüş Tasarımı (DSD)</h3>
+          <p data-i18n="services.smile_desc">Yapay zeka destekli mock-up ve estetik laminat veneer uygulamaları.</p>
+        </div>
+        <div class="card service-card">
+          <div class="service-icon">🦷</div>
+          <h3 data-i18n="services.removable_title">Hareketli & Hibrit Protezler</h3>
+          <p data-i18n="services.removable_desc">Hassas tutuculu çıtçıtlı protezler, deflex/isosit esnek iskelet sistemleri.</p>
+        </div>
+        <div class="card service-card">
+          <div class="service-icon">📦</div>
+          <h3 data-i18n="services.logistics_title">Express Uluslararası Kargo</h3>
+          <p data-i18n="services.logistics_desc">DHL/FedEx gümrük onaylı özel dental kurye kutuları ile güvenli ve sıcaklık kontrollü teslimat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 NOKTALI MULTI-PORTAL GİRİŞ HUB MODAL'I -->
+  <div class="modal-backdrop" id="portalModal">
+    <div class="modal-dialog">
+      <button class="modal-close" onclick="closePortalHub()">✕</button>
+
+      <!-- ADIM 1: 6 KAPILI GİRİŞ HUB'I SEÇİMİ -->
+      <div id="hubStepSelection">
+        <div class="hub-header">
+          <div class="hub-icon">🔐</div>
+          <h2 class="hub-title" data-i18n="hub.title">MB ERP Portal Giriş Hub'ı</h2>
+          <p class="hub-subtitle" data-i18n="hub.subtitle">Lütfen yetki alanınıza uygun giriş kapısını seçiniz:</p>
+        </div>
+
+        <div class="portal-grid">
+          <!-- 1. Doktor Girişi -->
+          <div class="portal-card" onclick="selectPortal('DOCTOR', 'Doktor Girişi (Yurt İçi / Yurt Dışı)')">
+            <div class="portal-icon-box">🩺</div>
+            <div class="portal-info">
+              <div class="portal-name" data-i18n="hub.doctor_gate">Doktor Girişi</div>
+              <div class="portal-role-tag" data-i18n="hub.doctor_tag">Yurt İçi & Yurt Dışı Hekimler</div>
+            </div>
+            <div class="portal-arrow">→</div>
+          </div>
+
+          <!-- 2. Klinik Girişi -->
+          <div class="portal-card" onclick="selectPortal('CLINIC', 'Klinik & Hastane Girişi')">
+            <div class="portal-icon-box">🏥</div>
+            <div class="portal-info">
+              <div class="portal-name" data-i18n="hub.clinic_gate">Klinik Girişi</div>
+              <div class="portal-role-tag" data-i18n="hub.clinic_tag">Dental Poliklinikler & Merkezler</div>
+            </div>
+            <div class="portal-arrow">→</div>
+          </div>
+
+          <!-- 3. Yurt Dışı Aracı / Partner -->
+          <div class="portal-card highlight-card" onclick="selectPortal('AGENT_FOREIGN', 'Yurt Dışı Aracı & Temsilci Girişi')">
+            <div class="portal-icon-box">🌍</div>
+            <div class="portal-info">
+              <div class="portal-name" data-i18n="hub.agent_foreign_gate">Yurt Dışı Aracı / Partner</div>
+              <div class="portal-role-tag" data-i18n="hub.agent_foreign_tag">Global Temsilciler (EUR/USD)</div>
+            </div>
+            <div class="portal-arrow">→</div>
+          </div>
+
+          <!-- 4. Yurt İçi Aracı / Partner -->
+          <div class="portal-card" onclick="selectPortal('AGENT_LOCAL', 'Yurt İçi Bölge Temsilcisi Girişi')">
+            <div class="portal-icon-box">📍</div>
+            <div class="portal-info">
+              <div class="portal-name" data-i18n="hub.agent_local_gate">Yurt İçi Aracı / Temsilci</div>
+              <div class="portal-role-tag" data-i18n="hub.agent_local_tag">Bölge Satış & İş Ortakları</div>
+            </div>
+            <div class="portal-arrow">→</div>
+          </div>
+
+          <!-- 5. Şirket Personel Girişi -->
+          <div class="portal-card" onclick="selectPortal('STAFF', 'MB Diş Protez Personel Girişi')">
+            <div class="portal-icon-box">👔</div>
+            <div class="portal-info">
+              <div class="portal-name" data-i18n="hub.staff_gate">MB Personel Girişi</div>
+              <div class="portal-role-tag" data-i18n="hub.staff_tag">Muhasebe, İK, Depo, Üretim</div>
+            </div>
+            <div class="portal-arrow">→</div>
+          </div>
+
+          <!-- 6. Super Admin Girişi -->
+          <div class="portal-card admin-card" onclick="selectPortal('ADMIN', 'MB Yönetim & Super Admin Girişi')">
+            <div class="portal-icon-box">🛡️</div>
+            <div class="portal-info">
+              <div class="portal-name" data-i18n="hub.admin_gate">MB Admin Girişi</div>
+              <div class="portal-role-tag" data-i18n="hub.admin_tag">Şirket Sahibi / Genel Müdür</div>
+            </div>
+            <div class="portal-arrow">→</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ADIM 2: KİMLİK BİLGİLERİ GİRİŞ FORMU -->
+      <div id="hubStepLoginForm" class="hidden">
+        <button class="back-btn" onclick="backToHubSelection()">← <span data-i18n="hub.back">Giriş Kapılarına Dön</span></button>
+        <div class="hub-header">
+          <div class="hub-icon" id="selectedPortalIcon">🔑</div>
+          <h2 class="hub-title" id="selectedPortalTitle">Giriş Yap</h2>
+          <p class="hub-subtitle" id="selectedPortalDesc">Kurumsal hesabınızla güvenli oturum açın.</p>
+        </div>
+
+        <form id="loginForm" onsubmit="handleLoginSubmit(event)">
+          <div class="form-group">
+            <label data-i18n="form.email">E-Posta Adresi / Sicil No</label>
+            <input type="email" id="loginEmail" required placeholder="ornek@mbprotez.com" class="form-control" value="doktor@parisdent.com">
+          </div>
+
+          <div class="form-group">
+            <label data-i18n="form.password">Şifre</label>
+            <input type="password" id="loginPassword" required placeholder="••••••••" class="form-control" value="DemoPass123!">
+          </div>
+
+          <div class="form-group checkbox-group" id="foreignCheckboxGroup">
+            <label class="checkbox-label">
+              <input type="checkbox" id="isForeignCheckbox">
+              <span data-i18n="form.is_foreign">Yurt Dışı Lokasyon / Uluslararası Hesap (EUR/USD)</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="loginSubmitBtn">
+            <span data-i18n="form.btn_login">Doğrula ve İlerle</span>
+            <span>→</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- ADIM 3: 2FA / MFA DOĞRULAMA FORMU -->
+      <div id="hubStepMfa" class="hidden">
+        <div class="hub-header">
+          <div class="hub-icon">📲</div>
+          <h2 class="hub-title" data-i18n="mfa.title">MFA / 2FA İki Aşamalı Doğrulama</h2>
+          <p class="hub-subtitle" data-i18n="mfa.subtitle">Güvenliğiniz için kayıtlı telefonunuza/e-postanıza gönderilen 6 haneli kodu giriniz.</p>
+        </div>
+
+        <div class="mfa-demo-alert">
+          💡 Demo Doğrulama Kodu: <strong id="mfaCodePreview">123456</strong>
+        </div>
+
+        <form id="mfaForm" onsubmit="handleMfaSubmit(event)">
+          <div class="form-group">
+            <label data-i18n="mfa.code_label">6 Haneli Güvenlik Kodu</label>
+            <input type="text" id="mfaInput" maxlength="6" required placeholder="123456" class="form-control mfa-input-box" autofocus>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="mfaSubmitBtn">
+            <span data-i18n="mfa.btn_verify">Yetkilendir ve Panele Git</span>
+            <span>✓</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- ADIM 4: BAŞARILI GİRİŞ VE PANEL YÖNLENDİRME -->
+      <div id="hubStepSuccess" class="hidden text-center">
+        <div class="success-icon">🎉</div>
+        <h2 class="hub-title" data-i18n="success.title">Oturum Başarıyla Açıldı!</h2>
+        <p class="hub-subtitle" id="successRedirectMsg">Yetki alanınıza özel Enterprise ERP paneline yönlendiriliyorsunuz...</p>
+        <div class="spinner"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
