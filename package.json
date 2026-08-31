@@ -14,10 +14,10 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@prisma/client": "^7.10.0",
+    "@prisma/client": "^6.19.3",
     "@types/node": "^26.4.0",
     "dotenv": "^17.4.2",
-    "prisma": "^8.0.0-rc.12",
+    "prisma": "^6.19.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
     "zod": "^4.5.4"
