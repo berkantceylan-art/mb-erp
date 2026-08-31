@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/cases/page": "/admin/cases",
+  "/admin/finance/page": "/admin/finance",
+  "/admin/login/page": "/admin/login",
+  "/admin/production/page": "/admin/production",
+  "/admin/settings/page": "/admin/settings",
+  "/admin/stakeholders/page": "/admin/stakeholders",
+  "/api/auth/admin-login/route": "/api/auth/admin-login",
+  "/api/auth/admin-logout/route": "/api/auth/admin-logout",
+  "/page": "/"
+}
